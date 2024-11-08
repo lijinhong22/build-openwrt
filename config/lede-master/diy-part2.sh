@@ -32,7 +32,7 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
  git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
  git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-
+ git clone https://github.com/AdguardTeam/AdGuardHome.git package/AdGuardHome
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
 # svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile ./feeds/packages/utils/runc/Makefile
